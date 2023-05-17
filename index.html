@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Muzaffer KAYA</title>
+	<link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="src/lib/bootstrap.min.css">
+	<link rel="stylesheet" href="src/css/main.css">
+	<script src="src/lib/bootstrap.bundle.min.js"></script>
+	<script src="src/js/main.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg bg-transparent" data-bs-theme="dark">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img src="src/img/logo.png" alt="Bootstrap" width="64" height="52">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">Hakkımda</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#project">Projelerim</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Bildiklerim</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">İletişim</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4">Muzaffer KAYA</h1>
+			<p class="lead">Full-Stack Developer</p>
+		</div>
+	</div>
+
+	<div class="up" onclick="up()"></div>
+
+	<a name="about"></a>
+	<div class="about mt-5">
+		<div class="container">
+			<h2>Hakkımda</h2>
+			<p>Ben bir Front-End ve Back-End geliştiriciyim ama bana "full-stack" olarak adlandırılan çok yönlü bir web
+				geliştiricisi diyebilirsiniz :) Bildiklerim bölümünde arz ettiğim tüm back-end ve front-end
+				teknolojilerine
+				hakimim. Gerek projelendirme, gerek ise geliştirme aşamalarında kaliteye ve standartlara önem veriyorum.
+				Projedeki küçük ayrıntılarla ilgilenerek projenin optimizasyonuna zaman harcamayı seviyorum. Büyük
+				projelerde bir ekibe dahil olarak takım halinde uyumlu bir şekilde de çalışabilirim. Kısa bir özet
+				cümleyle
+				işimi severek yapıyorum.</p>
+		</div>
+	</div>
+
+	<a name="project"></a>
+	<div class="project mt-5">
+		<div class="container">
+			<h2>Projelerim</h2>
+			<div class="row row-cols-1 row-cols-md-2 g-4">
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">C# Kutuphane Takip Sistemi</h5>
+							<p class="card-text">Kütüphane takip sistemi, bir kütüphanenin kaynaklarını yönetmek ve
+								kullanıcıların kitapları ödünç almasını ve iade etmesini takip etmek için kullanılan bir
+								sistemdir.</p>
+							<a href="https://www.youtube.com/watch?v=6mhqjxYMgBE" target="_blank"
+								class="card-link">Youtube</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Doviz Kur Hesaplama</h5>
+							<p class="card-text">Döviz kur hesaplaması, farklı para birimleri arasındaki değerleri
+								dönüştürmek için kullanılan bir araçtır.</p>
+							<a href="https://github.com/MuzafferKaya/Doviz-Kur-Hesaplama-website" target="_blank"
+								class="card-link">Github</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Todo List</h5>
+							<p class="card-text">Todo listeleri, günlük görevlerinizi organize etmek, takip etmek ve
+								tamamlamak için kullanabileceğiniz etkili araçlardır.</p>
+							<a href="https://github.com/MuzafferKaya/Todo-List-website" target="_blank"
+								class="card-link">Github</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">TYT Puan Hesaplama</h5>
+							<p class="card-text">TYT (Temel Yeterlilik Testi) puan hesaplama, Türkiye'de üniversiteye
+								girişte kullanılan bir sistemde kullanılan bir araçtır.</p>
+							<a href="https://github.com/MuzafferKaya/tyt-puan-hesaplama-website" target="_blank"
+								class="card-link">Github</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<a name="skills"></a>
+	<div class="skills mt-5">
+		<div class="container">
+			<div class="row pb-5 d-flex">
+				<div class="col">
+					<h3 class="text-center my-4">Frontend</h3>
+					<p class="mt-4">HTML5</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
+							aria-valuemin="0" aria-valuemax="100">100%</div>
+					</div>
+					<p class="mt-4">CSS3</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
+							aria-valuemin="0" aria-valuemax="100">100%</div>
+					</div>
+					<p class="mt-4">Bootstrap Framework</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
+							aria-valuemin="0" aria-valuemax="100">100%</div>
+					</div>
+					<p class="mt-4">JavaScript</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25"
+							aria-valuemin="0" aria-valuemax="100">40%</div>
+					</div>
+					<p class="mt-4">Jquey</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="25"
+							aria-valuemin="0" aria-valuemax="100">20%</div>
+					</div>
+					<p class="mt-4">Android</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25"
+							aria-valuemin="0" aria-valuemax="100">65%</div>
+					</div>
+				</div>
+				<div class="col">
+					<h3 class="text-center my-4">Backend</h3>
+					<p class="mt-4">JAVA</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25"
+							aria-valuemin="0" aria-valuemax="100">65%</div>
+					</div>
+					<p class="mt-4">C#</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
+							aria-valuemin="0" aria-valuemax="100">100%</div>
+					</div>
+					<p class="mt-4">ASP.Net Entity Framework</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+							aria-valuemin="0" aria-valuemax="100">25%</div>
+					</div>
+					<p class="mt-4">ARDUNIO</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25"
+							aria-valuemin="0" aria-valuemax="100">85%</div>
+					</div>
+				</div>
+				<div class="col">
+					<h3 class="text-center my-4">DevOps</h3>
+					<p class="mt-4">PhotoShop</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25"
+							aria-valuemin="0" aria-valuemax="95">95%</div>
+					</div>
+					<p class="mt-4">After Effect</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25"
+							aria-valuemin="0" aria-valuemax="100">65</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<a name="contact"></a>
+	<div class="contact mt-5">
+		<div class="container">
+			<h3>İletişim</h3>
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label">Adınız</label>
+				<input type="text" class="form-control" id="exampleFormControlInput1">
+			</div>
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label">Konu</label>
+				<input type="text" class="form-control" id="exampleFormControlInput1">
+			</div>
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label">E-posta</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1">
+			</div>
+			<div class="mb-3">
+				<label for="exampleFormControlTextarea1" class="form-label">Mesaj</label>
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			</div>
+			<div class="mb-3">
+				<button type="submit" class="btn btn-primary mb-3">Gonder</button>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container py-4">
+			<p>© 2023 Muzaffer KAYA</p>
+		</div>
+	</footer>
+</body>
+
+</html>
